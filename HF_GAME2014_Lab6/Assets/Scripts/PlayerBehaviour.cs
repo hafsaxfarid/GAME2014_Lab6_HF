@@ -66,7 +66,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     private float FlipAnimation(float x)
     {
-        x = (x > 0) ? 1 : 0;
+        x = (x > 0) ? 1 : -1;
 
         transform.localScale = new Vector2 (x, 1.0f);
         return x;
